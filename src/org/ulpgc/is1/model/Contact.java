@@ -26,4 +26,12 @@ public abstract class Contact {
     public void setEmail(String email) {
         this.email = email;
     }
+
+    public String getTelephone() {
+        return telephone;
+    }
+
+    public String getEmail() {
+        return email;
+    }
 }
