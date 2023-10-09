@@ -11,9 +11,7 @@ public abstract class Contact {
         this.email = email;
     }
 
-    public String getName(){
-        return this.name;
-    } // No se como se hace.
+
 
     public void setAddress(String street, int number, int floor, String city) {
         this.address = new Address(street, number, floor, city);
