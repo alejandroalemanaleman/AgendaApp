@@ -11,7 +11,9 @@ public class Main {
         Group group1 = agenda.getGroupArrayList().get(0);
         group1.addContact(contact1);
         System.out.println(agenda.getContactArrayList().size() + " is the number of contacts in agenda.");
-        System.out.println(group1.getMembers().size() +  " is the number of contacts in group trabajo.");
+        System.out.println(group1.getMembers().size() +  " is the number of contacts in group \"trabajo\".");
+        group1.removeContact(0);
+        System.out.println(group1.getMembers().size() +  " is the number of contacts in group \"trabajo\".");
 
 
 
